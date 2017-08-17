@@ -5,21 +5,21 @@
     <title>Roman Numeral Converter</title>
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/scripts.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/boostrap.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
   </head>
   <body>
-    <form>
-  <div class="form-group">
-    <label for="enternumber"></label>
-    <input type="number" class="form-control" id="userInput" placeholder="Enter a number..">
-
-  </div>
-  <button class="btn btn-info" onClick="return empty()" >Submit</button>
-  <div><ul class="output">
-        
-      </ul>
-  </div>
-</form>
-
-
+    <div class="container">
+      <img src="https://threesixty360.files.wordpress.com/2011/01/forty-five.jpg" alt="Numerals">
+      <p>Type a numeric value to see it in roman numerals</p>
+      <form>
+        <div class="form-group">
+          <label for="enternumber"></label>
+          <input type="number" class="form-control" id="userInput" placeholder="Enter a number..">
+        </div><br>
+        <button class="btn btn-secondary" onClick="return empty()">Submit</button><br>
+        <div><p class="output"></p></div>
+      </form>
+    </div>
   </body>
 </html>
