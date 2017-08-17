@@ -1,4 +1,4 @@
-// TODO 1. Fix "Output Stacking"
+// TODO 
 //      2. Add functionality to numbers >= 4000 && numbers <= 3,999,999 qqqqqq
 
 // BACK END LOGIC
@@ -32,7 +32,7 @@ function empty() {
 $(document).ready(function() {
   $("form").submit(function(event) {
     var red = $("input#userInput").val();
-    $(".output").append(convert(red));
+    $(".output").text(convert(red));
     event.preventDefault();
 
 
